@@ -1,0 +1,16 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Search results
+{% endblock %}
+
+{% block body %}
+    <h1>Relevant results</h1>
+
+    <ul>
+        {% for rele in relevant %}
+            <li> <a href = {{"/wiki/"|add:rele}}> {{ rele }} </a> </li>
+        {% endfor %}
+    </ul>
+    
+{% endblock %}
