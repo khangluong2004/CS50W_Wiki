@@ -1,2 +1,2 @@
-# UploadFilesTest
-Upload all files without the folder
+# WikiProject
+CS50W Wiki Project
